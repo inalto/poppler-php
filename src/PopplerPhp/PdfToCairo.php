@@ -93,7 +93,6 @@ class PdfToCairo extends PopplerUtil
     public function generatePNG()
     {
         $this->setOutputFormat(C::_PNG);
-
         return $this->generate();
     }
 

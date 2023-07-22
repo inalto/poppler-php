@@ -334,6 +334,7 @@ abstract class PopplerUtil
         /**
          * Replace shell_exec with Symfony Process
          */
+        ray("->".$command);
         return shell_exec($command);
     }
 
